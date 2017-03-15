@@ -9,8 +9,12 @@ vegetables[1] = "turnip";
 vegetables[2] = "donut";
 document.write(vegetables + "<br />");
 
-//dynamic array
+// dynamic array
 var vehicles = new Array();
 vehicles[0] = "car";
 vehicles[1] = "unicycle";
 document.write(vehicles + "<br />");
+
+// array literal
+var animals = ["hedgehog", "cat", "snake"];
+document.write(animals + "<br />");
