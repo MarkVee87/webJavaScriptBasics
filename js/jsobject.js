@@ -5,6 +5,12 @@ function person(n, a){
   this.changeName = function(name){
     this.name = name;
   }
+  // Calling external function to the object to calculate date of birth
+  this.yob = yearOfBirth;
+}
+
+function yearOfBirth(){
+  return 2017 - this.age;
 }
 
 var aName = prompt("please enter your name");
@@ -19,4 +25,5 @@ document.write(a.name + " " + a.age + "<br />");
 document.write(b.name + " " + b.age + " " + aSingleInstanceOfAnObject.faveFood  + "<br />");
 // Calling the method of the person object 'a'
 a.changeName("dave the goat");
-document.write(a.name + " " + a.age + "<br />");
+// print out with year of birth calculated
+document.write(a.name + " " + a.age + " " + a.yob() + "<br />");
