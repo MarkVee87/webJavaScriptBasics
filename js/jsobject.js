@@ -3,7 +3,10 @@ function person(n, a){
   this.age = a;
 }
 
-var a = new person("mark", 30);
+var aName = prompt("please enter your name");
+var aAge = prompt("please enter your age");
+
+var a = new person(aName, aAge);
 var b = new person("bob", 21);
 
 document.write(a.name + " " + a.age + "<br />");
