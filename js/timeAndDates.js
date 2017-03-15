@@ -48,7 +48,6 @@ var d = new Date("12 March 1987");
 document.write(d + "<br />");
 
 // writes time to html and updates every second
-
 function printTime() {
   var elem = document.getElementById("mydiv");
   var d = new Date();
