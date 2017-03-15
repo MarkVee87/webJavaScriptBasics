@@ -1,6 +1,3 @@
-
-
-
 $(document).ready(function(){
   var elem = document.getElementById("mydiv");
   // document.getElementsByClassName(name)
