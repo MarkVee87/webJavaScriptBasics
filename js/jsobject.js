@@ -4,5 +4,7 @@ function person(n, a){
 }
 
 var a = new person("mark", 30);
+var b = new person("bob", 21);
 
-document.write(a.name + " " + a.age);
+document.write(a.name + " " + a.age + "<br />");
+document.write(b.name + " " + b.age);
