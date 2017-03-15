@@ -18,3 +18,17 @@ document.write(vehicles + "<br />");
 // array literal
 var animals = ["hedgehog", "cat", "snake"];
 document.write(animals + "<br />");
+
+// getting the length of an array
+var aLength = animals.length;
+document.write(aLength + "<br />");
+
+// concatenating two arrays into one
+var concatArray = vehicles.concat(animals);
+document.write(concatArray + "<br />");
+
+// associative array (named elements, producing an object)
+var person = [];
+person["name"] = "mark";
+person["age"] = 30;
+document.write(person.name + " " + person["age"] + "<br />");
