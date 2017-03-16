@@ -18,4 +18,12 @@ $(document).ready(function(){
   for(var x = 0; x < a.length; x++) {
     a[x].innerHTML = "look, some new text";
   }
+
+  // change link on page to another
+  var elhref = document.getElementsByTagName("a");
+  elhref[0].href = "http://www.google.com";
+
+  // change image on page to another
+  var elimage = document.getElementById("myimg");
+  elimage.src = "../images/apple.jpg";
 });
